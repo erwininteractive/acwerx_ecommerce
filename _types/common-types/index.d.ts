@@ -1,5 +1,3 @@
-import { Image, Slug } from "sanity"
-
 declare module 'common-types' {
     type Base = {
         _createdAt: string
