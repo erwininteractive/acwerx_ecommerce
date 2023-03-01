@@ -32,7 +32,7 @@ export default async function HomePage() {
 
     return (
         <>
-            <Products products={ products } />
+            {/* <Products products={ products } /> */}
         </>
     )
 }
