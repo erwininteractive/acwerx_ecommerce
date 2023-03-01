@@ -9,7 +9,7 @@ export default function Products({ products }: Props) {
         <>
             {/* Products */}
             {products.map(product => (
-                <p>{ product.name }</p>
+                <p key='_id'>{ product.name }</p>
             ))}
         </>
     )
