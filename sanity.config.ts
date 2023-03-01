@@ -5,9 +5,6 @@ import {schemaTypes} from './schemas'
 import StudioNavBar from './components/StudioNavBar'
 import Logo from './components/Logo'
 
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!
-
 export default defineConfig({
     basePath: '/studio',
     name: 'ACWERX_STUDIO',
